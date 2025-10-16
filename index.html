@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="src/style.css" />
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
     <title>AI Arabic Poem Generator</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <main>
 
-<form>
+<form id="poem-generator-form">
 <input type = "text" placeholder="Enter your idea... let it rhyme 💭"
  autofocus
  required
@@ -24,10 +25,8 @@
  />
 <input type="submit" class="submit-button"/>
 </form>
-<div class="poem">
+<div class="poem" id = "poem"></div>
 
-  The poem will go here  
-</div>
 
 
 </main>
